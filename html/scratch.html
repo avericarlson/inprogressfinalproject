@@ -4,7 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: antiquewhite;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            color: rgb(84, 50, 27);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: italic;
+        }
+        h2, h3, h4, h5, h6 {
+            color: saddlebrown;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+        }
+        .navbar {
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: saddlebrown;
+        }
+        .sidebar {
+            background-color: saddlebrown;
+            width: 150px;
+            height: 100%;
+            left: 0;
+            padding: 15px;
+            position: fixed;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            margin-left: 170px;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="sidebar">
@@ -22,27 +71,30 @@
 
     <div class="main-content" id="top">
         <h1>TRAVELLING THE WORLD</h1>
-        <img src="Ancient World Map.jpeg" height="250" alt="Ancient world map"> 
-        
+        <img src="Ancient World Map.jpeg" height="250" alt="Ancient world map">
+
         <h3>The Allure of World Travel</h3>
         <p>Traveling the world is an invitation to immerse yourself in the beauty and diversity of our planet. Each destination has its own rhythm and stories, waiting to be discovered. From the sunlit ruins of Machu Picchu to the tranquil canals of Venice, the world’s wonders remind us of humanity’s vast creativity and history. Yet, the magic of travel often lies beyond iconic landmarks. It’s in the unplanned encounters—a street performer’s melody in Paris, a shared meal with strangers in a remote village, or the laughter exchanged despite language barriers. These moments create memories that endure long after the journey ends. Travel is a celebration of differences and a reminder of our shared humanity, offering countless opportunities to broaden our perspectives.</p>
+
         <h3>Broadening Perspectives Through Exploration</h3>
         <p>Traveling isn’t just about reaching new destinations; it’s about embracing new ways of seeing the world. Immersing yourself in unfamiliar cultures teaches humility, patience, and adaptability. Experiencing daily life in a distant land fosters empathy, revealing both the commonalities and unique expressions of human existence. Whether savoring the spices of an unfamiliar dish or learning about age-old traditions, each experience adds depth to our understanding. Travel challenges stereotypes, encourages open-mindedness, and often redefines our values, leaving us changed in profound and unexpected ways.</p>
+
         <h3>The Transformative Power of Adventure</h3>
         <p>World travel holds the power to transform. It pushes us out of our comfort zones, inviting personal growth and discovery. Standing before the vastness of the Sahara or the icy grandeur of Antarctica instills a humbling awe, while vibrant cities like Tokyo or Rio de Janeiro ignite curiosity and wonder. These moments shape who we are, shifting perspectives and inspiring creativity. In the process, travel becomes more than just a physical journey—it’s a journey of self-discovery. Mark Twain aptly said, “Travel is fatal to prejudice, bigotry, and narrow-mindedness.” Exploring the world invites us to see beyond borders, fostering a deeper appreciation for the vast, interconnected human experience.</p>
-        
+
         <img src="Plane.jpeg" height="250" alt="Plane in the air">
 
         <h3>Rediscovering Nature Through Travel</h3>
         <p>Traveling the world often rekindles our connection to nature, reminding us of its awe-inspiring beauty and fragility. From the lush rainforests of the Amazon to the stark, otherworldly landscapes of Iceland, the Earth offers countless opportunities to witness its wonders. Standing beneath a starlit sky in the Australian Outback or hearing the thunderous roar of Victoria Falls can be humbling experiences, underscoring the planet's vastness and power. These journeys also highlight the need to preserve what we explore. Witnessing endangered wildlife in their natural habitats or seeing coral reefs threatened by climate change emphasizes our responsibility to protect these treasures. Through travel, we gain not only a sense of wonder but also a renewed commitment to safeguarding the world’s natural heritage for future generations.</p>
+
         <h3>The Bonds Forged on the Journey</h3>
         <p>One of the most rewarding aspects of travel is the connections forged along the way. Whether it’s a friendship sparked with a fellow traveler on a crowded train or a bond formed with a local who shares their culture and traditions, these interactions become the heart of the journey. They remind us that despite our differences, human kindness is universal. These relationships often transcend language and cultural barriers, leaving lasting impressions. The stories shared, laughter exchanged, and even the challenges faced together make the experience richer. In a world often divided, travel has the unique power to foster understanding and unity, one connection at a time.</p>
-        
-        <img src="Santorini.jpeg" height ="250" alt="Santorini">
+
+        <img src="Santorini.jpeg" height="250" alt="Santorini">
 
         <h3>Travel Destinations</h3>
         <ol>
-            <li>Phillipines
+            <li>Philippines
                 <ul>
                     <li>Beaches</li>
                     <li>Good food</li>
@@ -90,7 +142,7 @@
             allowfullscreen>
         </iframe> <br><br> 
 
-        <div class='tableauPlaceholder' id='viz1733711744393' style='position: relative; width: 1200px; height: 800px;'> <!-- Reduced size here -->
+        <div class='tableauPlaceholder' id='viz1733711744393' style='position: relative; width: 100%; height: 800px;'>
             <noscript>
                 <a href='#'>
                     <img alt='Japan' src='https://public.tableau.com/static/images/Ja/JapansMostBeautifulPrefectures_17204472802890/Japan/1_rss.png' style='border: none' />
@@ -110,7 +162,7 @@
                 <param name='language' value='en-US' />
             </object>
         </div>
-        
+
         <script type='text/javascript'>
             var divElement = document.getElementById('viz1733711744393');
             var vizElement = divElement.getElementsByTagName('object')[0];
@@ -120,7 +172,6 @@
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
-        
 
         <a href="#top">Jump to top</a> <br><br>
     </div>
